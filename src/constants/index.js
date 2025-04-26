@@ -25,7 +25,6 @@ import {
   javascript,
   mongodb,
   nodejs,
-  linux,
   reactjs,
   redux,
   tailwind,
@@ -74,7 +73,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "UI / UX Designer",
     icon: creator,
   },
 ];
@@ -98,8 +97,8 @@ const technologies = [
   },
 
   {
-    name: "Linux",
-    icon: linux,
+    name: "framer",
+    icon: framer,
   },
 
  
