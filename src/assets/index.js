@@ -9,10 +9,19 @@ import close from "./close.svg";
 import gsap from './tech/gsap.png'
 import framer from './tech/framer.png';
 import css from "./tech/css.png";
+import python from "./python.png";
 import figma from "./tech/figma.png";
-import gearXpert from './gearXpert.png';
-import project3 from './project3.webp';
-import project2 from './proj1.webp'
+import life from './life.jpg';
+import supra from './supra.jpg';
+import supa from './supa.png';
+import fire from './fire.png';
+import cinema from './cinema.png';
+import car from './car.jpg';
+import walletwatch from './walletwatch.jpg';
+import melomood from './melomood.jpg'
+import comment3 from './comment3.jpg'
+import comment4 from './comment4.jpg'
+import comment5 from './comment5.jpg'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
@@ -40,9 +49,6 @@ export {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
-  project3,
   mysql,
   express,
   aws,
@@ -62,5 +68,17 @@ export {
   redux,
   tailwind,
   threejs,
-
+  walletwatch,
+  melomood,
+  life,
+  supra,
+  car,
+  cinema,
+  supa,
+  fire,
+  python,
+  comment3,
+  comment4,
+  comment5,
+  
 };

@@ -53,7 +53,7 @@ const FeedbackCard = ({ index, testimonial, name, designation, company, image })
               <span className="blue-text-gradient">@</span> {name}
             </p>
             <p className="mt-1 text-secondary text-[12px]">
-              {designation} of {company}
+              {designation} at {company}
             </p>
           </div>
 
@@ -74,7 +74,7 @@ const Feedbacks = () => {
       <div className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}>
         <div>
           <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+          <h2 className={styles.sectionHeadText}>Feedback</h2>
         </div>
       </div>
       <div

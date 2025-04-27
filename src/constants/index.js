@@ -9,9 +9,12 @@ import {
   menu,
   close,
   css,
-  gearXpert,
-  project2,
-  project3,
+  walletwatch,
+  life,
+  cinema,
+  melomood,
+  supra,
+  car,
   mysql,
   express,
   aws,
@@ -32,6 +35,12 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  supa,
+  fire,
+  python,
+  comment3,
+  comment4,
+  comment5,
 } from '../assets'
 
 
@@ -97,8 +106,8 @@ const technologies = [
   },
 
   {
-    name: "framer",
-    icon: framer,
+    name: "Python",
+    icon: python,
   },
 
  
@@ -111,16 +120,16 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "SupaBase",
+    icon: supa,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Material Ui",
-    icon: mui,
+    name: "FireBase",
+    icon: fire,
   },
   {
     name: "Node JS",
@@ -200,101 +209,172 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+    name: "Dilmaa Madanayake",
+    designation: "Head of HR",
+    company: "Cool Planet",
     image: firstTestimonial,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+    name: "Shannon VanRanzow",
+    designation: "System Engineer",
+    company: "Analytical Instruments (Pvt) Ltd",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
+      "Impressive work! Your portfolio beautifully showcases your skills and passion for the IT field. I really appreciate the clean layout, and the variety of technologies you've worked with. Keep up the great work!",
+    name: "Yeshan Siriwardana",
+    designation: "Software Engineer",
+    company: "SLT-Mobitel (Pvt) Ltd",
+    image: comment3,
   },
+  {
+    testimonial:
+      "Outstanding work! Your portfolio clearly highlights your technical abilities, strong creativity, and genuine passion for the IT field. I'm excited to see all the great things you will achieve in the future!",
+    name: "Dulmi Hasanga",
+    designation: "Business Solution Engineer",
+    company: " Informatics International (Pvt) Ltd",
+    image: comment4,
+  },
+  {
+    testimonial:
+      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
+    name: "Yohani Dinandya",
+    designation: "Project Manager",
+    company: "Codegen International (Pvt) Ltd",
+    image: firstTestimonial,
+  },
+  {
+    testimonial:
+      "I’m honestly blown away by the incredible website you’ve created. Watching you turn your ideas into something so real and impactful fills me with so much pride and admiration. Keep shining and reaching for your dreams.",
+    name: "Hasani Wijerama",
+    designation: "Admin Officer",
+    company: "Trans Maldivian Airways",
+    image: comment5,
+  },  
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "MelooMood",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "MeloMood is a web-based platform that scans users' emotions and curates personalized music playlists, offering not only the perfect soundtrack for any mood but also motivational tracks to inspire and uplift users. It creates a unique, emotionally connected listening experience tailored to each individual.",
     tags: [
       {
-        name: "react",
+        name: "Flask",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "HTML",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JavaScript",
         color: "green-text-gradient",
-      },
+      },  
  
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: melomood,
+    source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:7214636530487709696/",
   },
   {
-    name: "GearXpert",
+    name: "WalletWatch",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "WalletWatch is a mobile application designed to help users manage their personal finances with ease. By allowing users to track their expenses, set budgets, and monitor their financial progress, WalletWatch provides a clear overview of spending habits and helps individuals stay on top of their financial goals.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "TypeScript",
         color: "pink-text-gradient",
       },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    image: walletwatch,
+    source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:7214636530487709696/",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Life Below Water",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Life Below Water is a web-based platform aimed at promoting ocean conservation through education and awareness. The website features engaging multimedia content, provides users with easy navigation to explore topics related to marine life, conservation efforts, and environmental sustainability.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
+        name: "Tailwind",
         color: "white-text-gradient",
       },
       {
-        name: "node",
-        color: "green-text-gradient",
+        name: "HTML",
+        color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "JavaScript",
         color: "green-text-gradient",
+      }, 
+    ],
+    image: life,
+    source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:7305955316444082176/",
+  },
+  {
+    name: "Supra Marketing Web",
+    description:
+      "Supra Marketing Web is a dynamic online platform designed to elevate marketing strategies and drive business growth. The website serves as a comprehensive tool for businesses to manage and promote their products, services, and brand identity. With an intuitive user interface, and robust features, Supra Marketing Web enables businesses to streamline their marketing efforts, track performance customers effectively",
+    tags: [
+      {
+        name: "Tailwind",
+        color: "white-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      }, 
+    ],
+    image: supra,
+    source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:7321896235160735744/",
+  },
+  {
+    name: "Smart Car Parking Management System",
+    description:
+      "This is an innovative web-based platform designed to optimize and automate the car parking experience. The system provides real-time parking space availability updates, allowing users to easily find available spots in a crowded parking lot. Through a seamless user interface, drivers can reserve parking spaces in advance, reducing time spent searching for a spot.",
+    tags: [
+      {
+        name: "Python",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Ubuntu",
+        color: "pink-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: car,
+    source_code_link: "https://drive.google.com/file/d/17SdZtzPE79BgoLEYEFxSfSE1L0NhLpXl/view?usp=sharing",
+  },
+  {
+    name: "Film Hall Ticket Booking System",
+    description:
+      "The Film Hall Ticket Booking System is a Java-based application designed to streamline the ticket booking process for cinemas. This system allows users to easily browse available films, check showtimes, and select seats for booking. It ensures that only available seats are booked and provides flexibility for users to cancel or modify their bookings.",
+    tags: [
+      {
+        name: "Java",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cinema,
+    source_code_link: "https://drive.google.com/file/d/1raAptuEhinqSscgF2fc-PRxVmwHE06nr/view?usp=sharing",
   },
 ];
 
