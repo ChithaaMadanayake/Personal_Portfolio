@@ -208,7 +208,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Chithaa proved me wrong.",
     name: "Dilmaa Madanayake",
     designation: "Head of HR",
     company: "Cool Planet",
@@ -216,7 +216,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
+      "I've never met a web developer who truly cares about their clients' success like Chithaa does.",
     name: "Shannon VanRanzow",
     designation: "System Engineer",
     company: "Analytical Instruments (Pvt) Ltd",
@@ -240,7 +240,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Chithaa proved me wrong.",
     name: "Yohani Dinandya",
     designation: "Project Manager",
     company: "Codegen International (Pvt) Ltd",
@@ -249,7 +249,7 @@ const testimonials = [
   {
     testimonial:
       "I’m honestly blown away by the incredible website you’ve created. Watching you turn your ideas into something so real and impactful fills me with so much pride and admiration. Keep shining and reaching for your dreams.",
-    name: "Hasani Wijerama",
+    name: "Yashini Wijewardhana",
     designation: "Admin Officer",
     company: "Trans Maldivian Airways",
     image: comment5,
