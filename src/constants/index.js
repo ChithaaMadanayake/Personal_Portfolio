@@ -211,7 +211,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Chithaa proved me wrong.",
+      "I’m genuinely impressed by what you’ve created here. Your ability to bring your concepts to life with such precision and creativity is something to admire. Keep striving for excellence in everything you do.",
     name: "Dilmaa Madanayake",
     designation: "Head of HR",
     company: "Cool Planet",
@@ -219,7 +219,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Chithaa does.",
+      "Your work is a true masterpiece! The way you’ve turned your ideas into something so unique and impactful is simply outstanding. Keep pushing the boundaries and making your mark in the world.",
     name: "Shannon VanRanzow",
     designation: "System Engineer",
     company: "Analytical Instruments (Pvt) Ltd",
@@ -243,7 +243,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I’m truly inspired by the work you’ve done here. The way you blend creativity and skill to bring your ideas to life is remarkable. Keep up the amazing work all the best!",
+      "I’m truly inspired by the work you’ve done here. The way you blend creativity and skill to bring your ideas to life is remarkable. Keep up the amazing work, continue to inspire with your talent and dedication!",
     name: "Yohani Dinandya",
     designation: "Project Coordinator",
     company: "Codegen International (Pvt) Ltd",
