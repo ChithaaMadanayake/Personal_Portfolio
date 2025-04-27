@@ -22,6 +22,9 @@ import melomood from './melomood.jpg'
 import comment3 from './comment3.jpg'
 import comment4 from './comment4.jpg'
 import comment5 from './comment5.jpg'
+import comment1 from './comment1.jpeg'
+import comment2 from './comment2.jpeg'
+import comment6 from './comment6.png'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
 import aws from './tech/aws.png';
@@ -80,5 +83,7 @@ export {
   comment3,
   comment4,
   comment5,
-  
+  comment6,
+  comment1,
+  comment2,
 };

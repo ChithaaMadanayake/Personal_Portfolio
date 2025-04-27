@@ -41,6 +41,9 @@ import {
   comment3,
   comment4,
   comment5,
+  comment6,
+  comment1,
+  comment2,
 } from '../assets'
 
 
@@ -212,7 +215,7 @@ const testimonials = [
     name: "Dilmaa Madanayake",
     designation: "Head of HR",
     company: "Cool Planet",
-    image: firstTestimonial,
+    image: comment1,
   },
   {
     testimonial:
@@ -220,7 +223,7 @@ const testimonials = [
     name: "Shannon VanRanzow",
     designation: "System Engineer",
     company: "Analytical Instruments (Pvt) Ltd",
-    image: secondTestimonial,
+    image: comment2,
   },
   {
     testimonial:
@@ -240,16 +243,16 @@ const testimonials = [
   },
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Chithaa proved me wrong.",
+      "I’m truly inspired by the work you’ve done here. The way you blend creativity and skill to bring your ideas to life is remarkable. Keep up the amazing work all the best!",
     name: "Yohani Dinandya",
-    designation: "Project Manager",
+    designation: "Project Coordinator",
     company: "Codegen International (Pvt) Ltd",
-    image: firstTestimonial,
+    image: comment6,
   },
   {
     testimonial:
       "I’m honestly blown away by the incredible website you’ve created. Watching you turn your ideas into something so real and impactful fills me with so much pride and admiration. Keep shining and reaching for your dreams.",
-    name: "Yashini Wijewardhana",
+    name: "Yashi Wijewardhana",
     designation: "Admin Officer",
     company: "Trans Maldivian Airways",
     image: comment5,
