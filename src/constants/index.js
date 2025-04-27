@@ -219,7 +219,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Your work is a true masterpiece! The way you’ve turned your ideas into something so unique and impactful is simply outstanding. Keep pushing the boundaries and making your mark in the world.",
+      "Your work is a true masterpiece! The way you’ve turned your ideas into something so unique and impactful is simply outstanding. Keep pushing the boundaries and making your mark in the world. All the best!",
     name: "Shannon VanRanzow",
     designation: "System Engineer",
     company: "Analytical Instruments (Pvt) Ltd",
