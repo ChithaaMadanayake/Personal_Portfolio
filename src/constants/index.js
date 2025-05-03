@@ -243,7 +243,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I’m truly inspired by the work you’ve done here. The way you blend creativity and skill to bring your ideas to life is remarkable. Keep up the amazing work, continue to inspire with your talent and dedication!",
+      "I went through your portfolio website, and it’s truly well done. The clean design and thoughtful project presentation show your effort and attention to detail. Great work — be proud of what you’ve created!",
     name: "Yohani Dinandya",
     designation: "Project Coordinator",
     company: "Codegen International (Pvt) Ltd",
