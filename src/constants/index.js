@@ -23,6 +23,7 @@ import {
   gsap,
   framer,
   figma,
+  csvdataanalyzer,
   git,
   html,
   javascript,
@@ -31,6 +32,7 @@ import {
   reactjs,
   redux,
   tailwind,
+  AX,
   threejs,
   firstTestimonial,
   secondTestimonial,
@@ -43,6 +45,7 @@ import {
   comment5,
   comment6,
   comment1,
+  portfolioImage,
   comment2,
 } from '../assets'
 
@@ -287,6 +290,28 @@ const projects = [
     source_code_link: "https://drive.google.com/file/d/1V7KVcRNqub8l880Rp_IryKSuv-kllus-/view?usp=drivesdk",
   },
   {
+    name: "Agent X",
+    description:
+     "Agent X is a mobile app designed to enhance personal safety, in unfamiliar environments. It scans for hidden cameras and provides an AI chatbot to help users share concerns without judgment, offering reassurance and digital protection. The app blends security features with emotional support, ensuring users feel both safe and heard.",
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "AI Chatbot",
+        color: "green-text-gradient",
+      },
+    ],
+    image: AX, 
+    source_code_link: "https://agent--x.vercel.app/",
+  },
+  
+  {
     name: "WalletWatch",
     description:
       "WalletWatch is a mobile application designed to help users manage their personal finances with ease. By allowing users to track their expenses, set budgets, and monitor their financial progress, WalletWatch provides a clear overview of spending habits and helps individuals stay on top of their financial goals.",
@@ -310,7 +335,7 @@ const projects = [
   {
     name: "Life Below Water",
     description:
-      "Life Below Water is a web-based platform aimed at promoting ocean conservation through education and awareness. The website features engaging multimedia content, provides users with easy navigation to explore topics related to marine life, conservation efforts, and environmental sustainability.",
+      "Life Below Water is a web-based platform aimed at promoting ocean conservation through education and awareness. The website features engaging multimedia content, provides users with easy navigation to explore topics related to marine life, conservation efforts, and environmental sustainability. It’s designed to inspire action and foster a deeper, more meaningful emotional connection with our oceans and ecosystems.",
     tags: [
       {
         name: "Tailwind",
@@ -367,6 +392,32 @@ const projects = [
     source_code_link: "https://drive.google.com/file/d/17SdZtzPE79BgoLEYEFxSfSE1L0NhLpXl/view?usp=sharing",
   },
   {
+    name: "CSV Data Analyzer",
+    description:
+    "CSV Data Analyzer is a Python-based tool designed to streamline data analysis workflows. It processes CSV files, transforming raw data into insightful reports and dynamic graphs. From identifying trends to generating detailed statistics, it accelerates data interpretation and enhances efficiency. A seamless solution for automating data handling and visualizing key insights with clarity, precision, speed, and real-time adaptability.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pandas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Matplotlib",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSV",
+        color: "white-text-gradient",
+      },
+    ],
+    image: csvdataanalyzer, 
+    source_code_link: "https://www.linkedin.com/feed/update/urn:li:activity:7273981561815932929/", 
+  },
+  
+  {
     name: "Film Hall Ticket Booking System",
     description:
       "The Film Hall Ticket Booking System is a Java-based application designed to streamline the ticket booking process for cinemas. This system allows users to easily browse available films, check showtimes, and select seats for booking. It ensures that only available seats are booked and provides flexibility for users to cancel or modify their bookings.",
@@ -375,10 +426,40 @@ const projects = [
         name: "Java",
         color: "pink-text-gradient",
       },
+      {
+      name: "cmd",
+      color: "green-text-gradient",
+      },
     ],
     image: cinema,
     source_code_link: "https://drive.google.com/file/d/1raAptuEhinqSscgF2fc-PRxVmwHE06nr/view?usp=sharing",
   },
+  {
+    name: "Art Portfolio",
+    description:
+      "This art portfolio features a diverse collection of artworks, and creative illustrations. It showcases a blend of artistic expression and modern design techniques, emphasizing visual storytelling, vibrant color usage, and intricate details. The works displayed here aim to engage viewers with both their aesthetic beauty and conceptual depth, demonstrating a passion for creating compelling and visually impactful art.",
+    tags: [
+      {
+        name: "Art",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Digital Design",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Illustration",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Creative Direction",
+        color: "white-text-gradient",
+      },
+    ],
+    image: portfolioImage, 
+    source_code_link: "https://chithaamadanayake.github.io",
+  }
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
