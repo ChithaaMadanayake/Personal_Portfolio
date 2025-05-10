@@ -19,11 +19,14 @@ import cinema from './cinema.png';
 import car from './car.jpg';
 import walletwatch from './walletwatch.jpg';
 import melomood from './melomood.jpg'
+import AX from './AX.png'
 import comment3 from './comment3.jpg'
 import comment4 from './comment4.jpg'
 import comment5 from './comment5.jpg'
 import comment1 from './comment1.jpeg'
+import csvdataanalyzer from './csvdataanalyzer.png'
 import comment2 from './comment2.jpeg'
+import portfolioImage from './portfolioImage.jpg'
 import comment6 from './comment6.png'
 import mysql from './tech/mysql.png';
 import express from './tech/express.png';
@@ -70,6 +73,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  portfolioImage,
   threejs,
   walletwatch,
   melomood,
@@ -86,4 +90,6 @@ export {
   comment6,
   comment1,
   comment2,
+  csvdataanalyzer,
+  AX,
 };
